@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HomersOdyssey</title>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content ="width=device-width, initial-scale=1">
+    <title>Homer's Odyssey</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +11,13 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="container" class="clearfix">
+      
+      <%= yield %>
+
+      <footer>
+        <h6>&copy; <a href="http://glynnwebsolutions.com">GlynnWebSolutions.com</a> 2016</h6>
+      </footer>
+    </div> <!-- end container -->
   </body>
 </html>
