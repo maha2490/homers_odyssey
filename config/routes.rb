@@ -4,4 +4,17 @@ Rails.application.routes.draw do
 
   get "/result", to: "places#result"
 
+  get "/api/places/lodging", to:"places#lodging"
+
+  get "/api/places/recreation", to:"places#recreation"
+
+  get "/api/places/supplies", to:"places#supplies"
+
+  get "/api/places/services", to:"places#services"
+
+  get "/api/places/medical", to:"places#medical"
+
+  # If you were to do this is super strict Rails way:
+  # get "/api/category/:id/places", to: "category_places#index"
+
 end

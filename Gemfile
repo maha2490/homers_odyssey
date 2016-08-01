@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'geokit-rails'
 gem "sprockets"
 gem "sprockets-es6", require: "sprockets/es6"
 
