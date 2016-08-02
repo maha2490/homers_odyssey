@@ -214,7 +214,10 @@ footer h6{
 .r_name{
 	font-weight: 700;
 	font-size: 120%;
-	letter-spacing: 1.5px; 
+	letter-spacing: 1.5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap; 
 }
 
 .r_address{
@@ -239,4 +242,5 @@ footer h6{
 	color: #164;
 	letter-spacing: 1%;
 	font-size: 120%;
+	padding-left: 25%;
 }
