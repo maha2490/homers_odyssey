@@ -123,8 +123,8 @@ main #home_map p{
 	text-align: center;
 	color: rgb(243, 243, 243);
 	
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
 	width: 95%;
 	background-color: rgb(114,85,52);
 	margin: 2% auto;
@@ -170,15 +170,15 @@ footer h6{
  }
 
  #inner_main{
- 	padding-top: 5%;
+ 	padding-top: 3.5%;
  }
 
  #map{
  	margin: 0 auto;
  	width: 90%;
  	height: 225px;
- 	margin-bottom: 5%;
- 	border:1% solid brown;
+ 	margin-bottom: 3.5%;
+ 	/*border:1% solid brown;*/
  }
 
  .r{
