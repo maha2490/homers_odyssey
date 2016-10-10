@@ -1,3 +1,225 @@
 // Place all the styles related to the places controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+// INDEX.HTML __________________________________________________
+.ho_logo_main {
+	width: 10%;
+    height: auto;
+    display: inline-block;
+    float: left;
+    margin-top: 3.25%;
+    margin-left: 2%;
+}
+#header_content h1 {
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 6.2vw;
+	padding-top: 5.5%;
+	padding-left: 4%; 
+}
+#header_content p {
+	box-sizing: border-box;
+	float: left;
+	font-family: 'Playfair Display', serif;
+	padding-top: 5.5%;
+}
+
+header #header_left img{
+	width: 100%;
+	height: auto;
+}
+
+/*header #header_left h1{
+	box-sizing: border-box;
+	font-family: "BenchNine";
+	color: rgb(66, 60, 51);
+	font-size: 350%;
+}
+
+header #header_left h4{
+	font-family: "BenchNine";
+	color: rgb(66, 60, 51);
+	letter-spacing: 1.5px;
+	line-height: 0px;
+}*/
+
+header #header_logo{
+	width: 34%;
+	float: right;
+	padding-top: 4%;
+}
+
+header #header_logo img{
+	width: 90%;
+	height: auto;
+	padding-left: 2%;
+	padding-left: 5%;
+	/*padding-bottom: 14%;*/
+}
+
+
+
+main #home_map{
+	padding-bottom: 2%;
+}
+
+main #home_map div{
+	margin:0 auto;
+}
+
+main #home_map p{
+	text-align: right;
+	padding-right: 4%;
+	color: #164;
+	font-family: "BenchNine";
+	font-size: 10%;
+}	
+
+#map-canvas{
+	height: 200px;
+	width: 90%;
+}
+
+#map-canvas img{
+	/*max-width: none;*/
+	/*width:90%;*/
+}
+
+.clickable{
+	margin:0 auto;
+}
+.information{
+	box-sizing: border-box;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	text-align: center;
+	color: rgb(243, 243, 243);
+	
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+	width: 95%;
+	background-color: rgb(114,85,52);
+	margin: 2% auto;
+	border-radius: 25px;
+}
+
+footer h6{
+	font-family: "BenchNine";
+	color: rgb(66, 60, 51);
+	letter-spacing: 2px;
+	text-align: center;
+
+}
+
+
+  /***********  BEGIN INNER  *************/
+.hide{
+	display:none;
+}
+
+ #inner_header_left{
+ 	width: 66%;
+ 	float: left;
+ } 
+
+ #inner_header_left img{
+ 	width: 100%;
+	height: auto;
+	padding-left: 6%;
+	padding-top: 5%
+ }
+
+ #inner_header_logo{
+ 	width: 34%;
+ 	float: right;
+ }
+
+ #inner_header_logo img{
+ 	width: 50%;
+	height: auto;
+	padding-left: 30%;
+	padding-top: 10%;
+ }
+
+ #inner_main{
+ 	padding-top: 3.5%;
+ }
+
+ #map{
+ 	margin: 0 auto;
+ 	width: 90%;
+ 	height: 225px;
+ 	margin-bottom: 3.5%;
+ 	/*border:1% solid brown;*/
+ }
+
+ .r{
+ 	box-sizing: border-box;
+ 	font-family: "BenchNine";
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	color: rgb(66, 60, 51);
+ 	background-color: rgb(191, 143, 88);
+ 	padding-top: 1%;
+ 	padding-bottom: 1%;
+ 	margin-top: 1%;
+ 	margin-bottom: 1%;
+ }
+
+ .r_left{
+ 	box-sizing: border-box;
+ 	width: 65%;
+ 	float: left;
+ }
+
+ .r_right{
+ 	box-sizing: border-box;
+ 	width: 35%;
+ 	float: right;
+ }
+
+.r_name, .r_address{
+	padding-left: 5%;
+	line-height: 25px;
+}
+
+.r_name{
+	font-weight: 700;
+	font-size: 120%;
+	letter-spacing: 1.5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap; 
+}
+
+.r_address{
+	font-size: 100%;
+	letter-spacing: .75px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.r_phone, .r_website{
+	line-height: 25px;
+}
+
+.r_phone{
+	font-weight: 700;
+	font-size: 118%;
+	letter-spacing: 1.5px;
+}
+
+.r_website a{
+	color: #164;
+	letter-spacing: 1%;
+	font-size: 120%;
+	padding-left: 25%;
+}
