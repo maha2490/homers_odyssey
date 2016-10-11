@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function() {
+    $("#js_homer_move").animate({left: "+=500"}, 2000);
+    $("#js_homer_move").animate({left: "-=300"}, 1000);
+});

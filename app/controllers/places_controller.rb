@@ -1,6 +1,10 @@
 class PlacesController < ApplicationController
 
-	def index
+	def logo_screen
+		render :logo_screen
+	end
+
+	def home
 		render :index
 	end
 

@@ -2,8 +2,37 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-
+// LOGO_SCREEN.HTML __________________________________________________
+.logo_screen_container {
+	width: 100vw;
+	height: 100vh; 
+	background-color: #f9fbf9;
+}
+.logo_screen_container h1{
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2e2e2e;
+	text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    margin-top: 50%;
+}
+.logo_screen_container p {
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+	color: #2e2e2e;
+	letter-spacing: 0.1px;
+	font-size: 2.4vw;
+	margin-left: 26%;
+}
+.homer_logo_screen {
+	width: 15%;
+    height: auto;
+	display: block;
+	margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto; 
+}
 
 // INDEX.HTML __________________________________________________
 header {
